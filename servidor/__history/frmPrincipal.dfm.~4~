@@ -1,0 +1,101 @@
+object frmServidorContatos: TfrmServidorContatos
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Servidor de Contato'
+  ClientHeight = 240
+  ClientWidth = 392
+  Color = clWindow
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clBlack
+  Font.Height = -11
+  Font.Name = 'Segoe UI Semibold'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 70
+    Width = 43
+    Height = 15
+    Caption = 'Usu'#225'rio:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 91
+    Width = 36
+    Height = 15
+    Caption = 'Senha:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 57
+    Top = 70
+    Width = 32
+    Height = 15
+    Caption = 'larissa'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 57
+    Top = 91
+    Width = 19
+    Height = 15
+    Caption = '123'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = []
+    ParentFont = False
+  end
+  object btnLigarServidor: TBitBtn
+    Left = 8
+    Top = 8
+    Width = 145
+    Height = 41
+    Caption = 'Ligar Servidor'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = btnLigarServidorClick
+  end
+  object Memo: TMemo
+    Left = 161
+    Top = 8
+    Width = 225
+    Height = 225
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clDefault
+    Font.Height = -11
+    Font.Name = 'Segoe UI Semibold'
+    Font.Style = []
+    Lines.Strings = (
+      'Memo')
+    ParentFont = False
+    TabOrder = 1
+  end
+end

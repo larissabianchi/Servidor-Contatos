@@ -1,0 +1,62 @@
+unit frmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TfrmServidorAplicacao = class(TForm)
+    BitBtn1: TBitBtn;
+    Memo: TMemo;
+    procedure BitBtn1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmServidorAplicacao: TfrmServidorAplicacao;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  untModelo.Contato,
+  DBXJsonReflect;
+
+procedure TfrmServidorAplicacao.BitBtn1Click(Sender: TObject);
+var
+  C: TContatos;
+  E: TEmail;
+  T: TTelefone;
+  M: TJSONMarshal;
+begin
+  C := TContatos.Create;
+  C.Nome := 'Larissa Bianchi';
+  C.Empresa := 'Estil Systems Brasil';
+
+  E := TEmail.Create;
+  E.Email := 'larissa.b@estilbrasil.com.br';
+  E.Tipo := 'Comercial';
+  C.Emails.Add(E);
+
+  E := TEmail.Create;
+  E.Email := 'larissa.bianchi16@gmail.com';
+  E.Tipo := 'Pessoal';
+  C.Emails.Add(E);
+
+  T := TTelefone.Create;
+  T.DDD := '11';
+  T.Numero := '9-5059-5550';
+  T.Tipo := 'Celular';
+  C.Telefones.Add(T);
+
+  M := TJSONMarshal.Create;
+  Memo.Lines.Add(M.Marshal(C).ToString);
+end;
+
+end.

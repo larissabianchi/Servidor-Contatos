@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/03/02 09:58:17.000.616,=C:\Users\laris\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 09:18:42.000.912,=C:\Users\laris\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 09:19:48.000.388,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\frmPrincipal.dfm=C:\Users\laris\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/04/06 09:19:48.000.388,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\frmPrincipal.pas=C:\Users\laris\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 09:22:04.000.649,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\RESTServer.dproj=C:\Users\laris\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/04/06 09:24:33.000.716,=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 09:24:49.000.670,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\untModelo.pas=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 10:26:45.000.757,=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.pas</Transaction>
+    <Transaction>2021/04/06 10:27:31.000.449,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\dmServer.dfm=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.dfm</Transaction>
+    <Transaction>2021/04/06 10:27:31.000.449,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\dmServer.pas=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.pas</Transaction>
+    <Transaction>2021/04/07 11:02:56.000.811,=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.pas</Transaction>
+    <Transaction>2021/04/07 11:05:27.000.735,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.pas=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\ContatoController.pas</Transaction>
+    <Transaction>2021/04/07 11:05:27.000.735,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.dfm=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\ContatoController.dfm</Transaction>
+    <Transaction>2021/04/07 11:06:20.000.900,C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\untModelo.pas=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\untModelo.Contato.pas</Transaction>
+    <Transaction>2021/04/13 14:53:07.000.782,=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\Unit1.pas</Transaction>
+    <Transaction>2021/04/13 14:53:25.000.155,=C:\Users\laris\Desktop\Estil\Servidor\Servidor Contatos\ESB.GUID.pas</Transaction>
+    <Transaction>2021/11/01 16:34:58.000.094,C:\Users\laris\Desktop\Estil\Servidor\ESB.GUID.pas=C:\Users\laris\Desktop\Estil\Servidor\Gerar.GUID.pas</Transaction>
+  </Transactions>
+</BorlandProject>

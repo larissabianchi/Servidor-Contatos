@@ -1,0 +1,19 @@
+program RESTServer;
+
+uses
+  Vcl.Forms,
+  frmPrincipal in 'frmPrincipal.pas' {frmServidorAplicacao},
+  untModelo.Contato in 'untModelo.Contato.pas',
+  dmServer in 'dmServer.pas' {frmDMServer: TDataModule},
+  ContatoController in 'ContatoController.pas' {DsContatoController: TDSServerModule},
+  ESB.GUID in 'ESB.GUID.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmServidorAplicacao, frmServidorAplicacao);
+  Application.CreateForm(TfrmDMServer, frmDMServer);
+  Application.Run;
+end.

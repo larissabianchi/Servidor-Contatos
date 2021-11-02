@@ -1,0 +1,34 @@
+object frmServidorAplicacao: TfrmServidorAplicacao
+  Left = 0
+  Top = 0
+  Caption = 'Servidor de Aplica'#231#227'o'
+  ClientHeight = 362
+  ClientWidth = 547
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object BitBtn1: TBitBtn
+    Left = 24
+    Top = 24
+    Width = 153
+    Height = 33
+    Caption = 'BitBtn1'
+    TabOrder = 0
+    OnClick = BitBtn1Click
+  end
+  object Memo: TMemo
+    Left = 24
+    Top = 72
+    Width = 497
+    Height = 265
+    Lines.Strings = (
+      'Memo')
+    TabOrder = 1
+  end
+end

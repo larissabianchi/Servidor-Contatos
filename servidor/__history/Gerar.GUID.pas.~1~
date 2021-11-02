@@ -1,0 +1,26 @@
+unit ESB.GUID;
+
+interface
+  //GUID - Globally Unique Identifier
+  //É uma string gerada pelo computador que dificilmente será gerada novamente
+  //servindo como identificação para registros
+  function GUID():string;
+
+implementation
+uses
+  ComObj,
+  ActiveX,
+  SysUtils;
+
+function GUID():string;
+var
+  ID: TGUID;
+begin
+
+  Result := '';
+
+  if CoCreateGuid(ID) = S_OK then
+     Result := GUIDToString(ID).Replace('{','').Replace('}','');
+end;
+
+end.
