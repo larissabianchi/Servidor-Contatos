@@ -7,3 +7,14 @@ Para que seja possível realizar os testes, compartilharei meu banco de dados e 
 https://www.getpostman.com/collections/bf09bce2067e882ab27f
 
 Espero que goste!
+
+--
+# Server-Contacts
+A REST server that can store all your contacts!
+
+In this project, an API was developed in Delphi using the REST standard. 
+The server can Add, Edit, List and Delete records. 
+However, the client part has not yet been developed. To be able to carry out the tests, I shared my database and the link to my Postman collection: 
+https://www.getpostman.com/collections/bf09bce2067e882ab27f
+
+I hope you like it!
